@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mod-1 Space Battle</title>
+    <style>
+        body{
+            background:lightblue url("https://media3.giphy.com/media/TZf4ZyXb0lXXi/giphy.gif") repeat fixed center;
+             
+        }
+        .flex-container{
+            display: flex;
+            width: 100% auto;
+            justify-content: space-around; 
+        }
+        .flex-container h2{
+            align-items: flex-end;
+        }
+        #flex-child-1{
+            width: 350px;
+            height: 480px;
+            border: 1px black solid;
+            border-radius: 16px;
+            text-align: center;
+            font-size: 30em;
+            color: white;
+            background-color: #183152;
+        }
+        #flex-child-2{
+            width: 350px;
+            height: 480px;
+            border: 1px black solid;
+            border-radius: 16px;
+            text-align: center;
+            font-size: 30em;
+            background-color: #ABC8E2;
+        }
+        h2{
+            text-align: center;
+            color: white;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 4px;
+        }
+        #main-footer h3{
+            color: white;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Your Score</h2>
+        <h2>Alien Score</h2>
+    </div>
+
+    <div class="flex-container">
+        <div id="flex-child-1">0</div>
+        <div id="flex-child-2">0</div>
+    </div>
+    <footer id="main-footer">
+        <h3>Copyright &COPY; 2020. Created by dev. Daler Bobojanov</h3>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
